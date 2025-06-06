@@ -57,7 +57,7 @@ export default function SimplifiedPortfolio() {
         <div className="w-full max-w-3xl mx-auto text-center mb-8">
           <p className="text-2xl mb-4 flex items-center justify-center gap-2">
             <span role="img" aria-label="wave">Hello,</span>
-            Im am <span className="font-bold text-black">Patrick Nobleza</span>
+            Im <span className="font-bold text-black">Patrick Nobleza</span>
           </p>
         </div>
 
@@ -166,8 +166,8 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white font-bold">BS</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Bachelor of Science in Information technology</h4>
-                      <p className="text-blue-600 font-medium">Bestlink college of the Philippines</p>
+                      <h4 className="font-semibold text-gray-800">Bachelor of Science in Information Technology</h4>
+                      <p className="text-blue-600 font-medium">Bestlink College of the Philippines</p>
                       <p className="text-gray-500 text-sm">2021 - 2025</p>
                       <p className="text-gray-600 text-sm mt-2">
                         Specialized in Information technology and Web Development
@@ -186,7 +186,7 @@ export default function SimplifiedPortfolio() {
                       <p className="text-blue-600 font-medium">Novaliches Highschool</p>
                       <p className="text-gray-500 text-sm">2018 - 2020</p>
                       <p className="text-gray-600 text-sm mt-2">
-                        ICT Track with focus on Computer System Servicing
+                        ICT Track with a Focus on Computer System Servicing
                       </p>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ export default function SimplifiedPortfolio() {
                       <span className="text-blue-800 text-sm font-medium">Understanding the Innovators Role in Digital Transformation</span>
                     </div>
                     <div className="bg-green-50 px-3 py-2 rounded-lg">
-                      <span className="text-green-800 text-sm font-medium">Basic Knowledge with the Research Trends rom Multidisciplinary Perspective in Engineering, Information and Communication Technology</span>
+                      <span className="text-green-800 text-sm font-medium">Basic Knowledge with the Research Trends Multidisciplinary Perspective in Engineering, Information and Communication Technology</span>
                     </div>
                     <div className="bg-purple-50 px-3 py-2 rounded-lg">
                       <span className="text-purple-800 text-sm font-medium">Green IT Innovation in Our daily Life</span>
