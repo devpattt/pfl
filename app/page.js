@@ -9,17 +9,13 @@ export default function SimplifiedPortfolio() {
       {/* Header Navigation */}
       <nav className="w-full z-50 bg-white border-b border-gray-100">
         <div className="w-full px-6 lg:px-12 py-6 flex justify-between items-center">
-          <div className="font-bold text-xl text-black">devyuji</div>
+          <div className="font-bold text-xl text-black">devpat</div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#design" className="text-gray-600 hover:text-black transition-colors">Design</a>
-            <a href="#photos" className="text-gray-600 hover:text-black transition-colors">Photos</a>
-            <a href="#about" className="text-gray-600 hover:text-black transition-colors">About</a>
-            <div className="flex space-x-2 text-sm text-gray-400">
-              <span>PH</span>
-              <span>EN</span>
-            </div>
+            <a href="#design" className="text-gray-600 hover:text-black transition-colors">Home</a>
+            <a href="#photos" className="text-gray-600 hover:text-black transition-colors">My Journey</a>
+            <a href="#about" className="text-gray-600 hover:text-black transition-colors">Achievements</a>
             <a href="mailto:patsandesu@gmail.com" className="bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 transition-colors">
               patsandesu@gmail.com
             </a>
@@ -224,10 +220,10 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white text-xl">🥇</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">First Place - University Hackathon</h4>
-                      <p className="text-gray-500 text-sm">2024</p>
+                      <h4 className="font-semibold text-gray-800">Top Student</h4>
+                      <p className="text-gray-500 text-sm">2018 - 2020</p>
                       <p className="text-gray-600 text-sm mt-2">
-                        Built a social impact web application in 48 hours
+                       Consistently ranked in the Top 5 of the class throughout academic years.
                       </p>
                     </div>
                   </div>
@@ -239,10 +235,10 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white text-xl">⭐</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Dean's List</h4>
-                      <p className="text-gray-500 text-sm">2022 - 2024</p>
+                      <h4 className="font-semibold text-gray-800">Officer Award</h4>
+                      <p className="text-gray-500 text-sm">2023 - 2025</p>
                       <p className="text-gray-600 text-sm mt-2">
-                        Maintained GPA above 3.5 for 4 consecutive semesters
+                        Recognized for outstanding leadership and commitment as an active member of the Student Council.
                       </p>
                     </div>
                   </div>
@@ -254,25 +250,10 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white text-xl">🚀</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Open Source Contributor</h4>
-                      <p className="text-gray-500 text-sm">2023 - Present</p>
+                      <h4 className="font-semibold text-gray-800">Boy Scout of the Philippines Award</h4>
+                      <p className="text-gray-500 text-sm">2018</p>
                       <p className="text-gray-600 text-sm mt-2">
-                        200+ contributions to various React and Next.js projects
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200 hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-xl">💡</span>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-800">Innovation Award</h4>
-                      <p className="text-gray-500 text-sm">2023</p>
-                      <p className="text-gray-600 text-sm mt-2">
-                        Recognized for developing an AI-powered study assistant
+                       Earned the highest rank in the Boy Scouts of the Philippines through a demonstrated commitment to leadership, community service, and personal development.
                       </p>
                     </div>
                   </div>
@@ -296,15 +277,15 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white font-bold text-sm">E</span>
                     </div>
                     <div className="flex-1">
-                      <h4 className="font-semibold text-gray-800">E-Commerce Platform</h4>
+                      <h4 className="font-semibold text-gray-800">Clinic Management System Integrated with Forecasting AI</h4>
                       <p className="text-gray-500 text-sm mb-2">Full Stack Project</p>
                       <p className="text-gray-600 text-sm mb-3">
-                        Built a complete online store with React, Node.js, and MongoDB
+                        A Capstone project for my Bachelor's degree, this system manages patient records, appointments, and integrates AI for predictive analytics.
                       </p>
                       <div className="flex flex-wrap gap-1">
-                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">React</span>
-                        <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Node.js</span>
-                        <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">MongoDB</span>
+                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                        <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Mysql</span>
+                        <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Bootstrap</span>
                       </div>
                     </div>
                   </div>
@@ -316,15 +297,15 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white font-bold text-sm">T</span>
                     </div>
                     <div className="flex-1">
-                      <h4 className="font-semibold text-gray-800">Task Management App</h4>
+                      <h4 className="font-semibold text-gray-800">Attendace Tracking System using Geofencing</h4>
                       <p className="text-gray-500 text-sm mb-2">Mobile & Web App</p>
                       <p className="text-gray-600 text-sm mb-3">
-                        Collaborative task manager with real-time updates
-                      </p>
+                        OJT Project for a local company, this system tracks employee attendance using geofencing technology.
+                      </p>  
                       <div className="flex flex-wrap gap-1">
-                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Next.js</span>
-                        <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">TypeScript</span>
-                        <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">Redis</span>
+                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                        <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Mysql</span>
+                        <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">Rest API</span>
                       </div>
                     </div>
                   </div>
@@ -336,15 +317,15 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white font-bold text-sm">P</span>
                     </div>
                     <div className="flex-1">
-                      <h4 className="font-semibold text-gray-800">Portfolio Website</h4>
+                      <h4 className="font-semibold text-gray-800">Event Management System</h4>
                       <p className="text-gray-500 text-sm mb-2">Client Project</p>
                       <p className="text-gray-600 text-sm mb-3">
-                        Responsive portfolio for a digital artist
+                        Event management platform for a local business, allowing users to create and manage events, sell tickets, and track attendance.
                       </p>
                       <div className="flex flex-wrap gap-1">
-                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">React</span>
-                        <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Tailwind</span>
-                        <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Framer Motion</span>
+                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                        <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Mysql</span>
+                        <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Bootstrap</span>
                       </div>
                     </div>
                   </div>
@@ -356,10 +337,10 @@ export default function SimplifiedPortfolio() {
                       <span className="text-white font-bold text-sm">A</span>
                     </div>
                     <div className="flex-1">
-                      <h4 className="font-semibold text-gray-800">AI Chat Assistant</h4>
-                      <p className="text-gray-500 text-sm mb-2">Personal Project</p>
+                      <h4 className="font-semibold text-gray-800">SK Management System</h4>
+                      <p className="text-gray-500 text-sm mb-2">Client Project</p>
                       <p className="text-gray-600 text-sm mb-3">
-                        Intelligent chatbot with natural language processing
+                        Develop AI Assistant for a local government unit to manage barangay records, events, and community engagement.
                       </p>
                       <div className="flex flex-wrap gap-1">
                         <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Python</span>
@@ -468,7 +449,7 @@ export default function SimplifiedPortfolio() {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <p className="text-blue-200">your.email@domain.com</p>
+                      <p className="text-blue-200">patsandesu@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -480,7 +461,7 @@ export default function SimplifiedPortfolio() {
                     </div>
                     <div>
                       <h4 className="font-semibold">Phone</h4>
-                      <p className="text-blue-200">+1 (555) 123-4567</p>
+                      <p className="text-blue-200">+63 9489363191</p>
                     </div>
                   </div>
                 </div>
@@ -492,7 +473,7 @@ export default function SimplifiedPortfolio() {
                     </div>
                     <div>
                       <h4 className="font-semibold">Location</h4>
-                      <p className="text-blue-200">Your City, Country</p>
+                      <p className="text-blue-200">Novaliches, Quezon City</p>
                     </div>
                   </div>
                 </div>
@@ -502,17 +483,27 @@ export default function SimplifiedPortfolio() {
               <div className="pt-8">
                 <h4 className="font-semibold mb-4">Follow me on</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors">
-                    <span className="text-white font-bold text-sm">Li</span>
+                  <a
+                    href="https://www.linkedin.com/in/patrick-nobleza-775016315/"
+                    className="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                  >
+                    {/* LinkedIn SVG */}
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.37-1.54 2.82-1.54 3.01 0 3.57 1.98 3.57 4.56v5.62z"/>
+                    </svg>
                   </a>
-                  <a href="#" className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors">
-                    <span className="text-white font-bold text-sm">Gh</span>
-                  </a>
-                  <a href="#" className="w-12 h-12 bg-blue-400 hover:bg-blue-500 rounded-lg flex items-center justify-center transition-colors">
-                    <span className="text-white font-bold text-sm">Tw</span>
-                  </a>
-                  <a href="#" className="w-12 h-12 bg-pink-600 hover:bg-pink-700 rounded-lg flex items-center justify-center transition-colors">
-                    <span className="text-white font-bold text-sm">Ig</span>
+                  <a
+                    href="https://github.com/"
+                    className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub"
+                  >
+                    {/* GitHub SVG */}
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.97 0-1.32.47-2.39 1.24-3.23-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.23 0 4.64-2.8 5.67-5.48 5.97.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0012 0z"/>
+                    </svg>
                   </a>
                 </div>
               </div>
@@ -535,7 +526,7 @@ export default function SimplifiedPortfolio() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p>&copy; 2024 Your Name. All rights reserved.</p>
+          <p>&copy; 2025 devpat. All rights reserved.</p>
           <p className="text-sm mt-2">Built with React and Tailwind CSS</p>
         </div>
         </footer>
