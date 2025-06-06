@@ -1,7 +1,13 @@
-"use client";import React, { useState } from 'react';
+"use client";
+import React, { useState, useEffect } from 'react';
+import Scrollbar from 'smooth-scrollbar';
 
 export default function SimplifiedPortfolio() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+
+  useEffect(() => {
+    Scrollbar.init(document.body, { damping: 0.08 });
+  }, []);
 
   return (
     <div className="h-screen w-full bg-white flex flex-col">
@@ -13,10 +19,10 @@ export default function SimplifiedPortfolio() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#design" className="text-gray-600 hover:text-black transition-colors">Home</a>
-            <a href="#photos" className="text-gray-600 hover:text-black transition-colors">My Journey</a>
-            <a href="#about" className="text-gray-600 hover:text-black transition-colors">Achievements</a>
-            <a href="mailto:patsandesu@gmail.com" className="bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 transition-colors">
+            <a
+              href="mailto:patsandesu@gmail.com"
+              className="bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 transition-colors"
+            >
               patsandesu@gmail.com
             </a>
           </div>
@@ -35,9 +41,9 @@ export default function SimplifiedPortfolio() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-4">
-            <a href="#design" className="block text-gray-600">Design</a>
-            <a href="#photos" className="block text-gray-600">Photos</a>
-            <a href="#about" className="block text-gray-600">About</a>
+            <span className="block text-gray-600">Home</span>
+            <span className="block text-gray-600">My Journey</span>
+            <span className="block text-gray-600">Contact</span>
             <a href="mailto:patsandesu@gmail.com" className="block bg-black text-white px-4 py-2 rounded text-sm text-center">
               patsandesu@gmail.com
             </a>
@@ -50,13 +56,13 @@ export default function SimplifiedPortfolio() {
         {/* Intro */}
         <div className="w-full max-w-3xl mx-auto text-center mb-8">
           <p className="text-2xl mb-4 flex items-center justify-center gap-2">
-            <span role="img" aria-label="wave">👋</span>
-            my name is Patrick Nobleza and I am a freelance
+            <span role="img" aria-label="wave">Hello,</span>
+            Im am <span className="font-bold text-black">Patrick Nobleza</span>
           </p>
         </div>
 
         {/* Main Title */}
-        <div className="relative w-full max-w-5xl mx-auto flex flex-col items-center">
+        <div id="home" className="relative w-full max-w-5xl mx-auto flex flex-col items-center">
           <h1 className="relative z-10 text-center">
             <span className="block text-5xl md:text-7xl lg:text-8xl font-black text-black leading-none">
               Webdeveloper
@@ -68,7 +74,7 @@ export default function SimplifiedPortfolio() {
               </span>
             </span>
             <span className="block text-5xl md:text-7xl lg:text-8xl font-black leading-none text-transparent stroke-text">
-              & Video Editor
+              & Freelancer
             </span>
           </h1>
 
@@ -111,6 +117,9 @@ export default function SimplifiedPortfolio() {
             -webkit-text-stroke: 1px #333;
           }
         }
+          html {
+        scroll-behavior: smooth;
+      }
       `}</style>
 
 
@@ -126,7 +135,7 @@ export default function SimplifiedPortfolio() {
 
         <br></br>
       {/* Portfolio Section - Education, Achievements, Past Works */}
-      <section id="portfolio" className="py-20 bg-white">
+      <section id="journey" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           
           {/* Section Header */}
@@ -526,8 +535,6 @@ export default function SimplifiedPortfolio() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p>&copy; 2025 devpat. All rights reserved.</p>
-          <p className="text-sm mt-2">Built with React and Tailwind CSS</p>
         </div>
         </footer>
     </div>
