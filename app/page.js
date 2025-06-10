@@ -82,7 +82,7 @@ export default function SimplifiedPortfolio() {
           <div className="relative flex justify-center mt-[-40px] mb-8 z-0">
             <div className="relative w-72 h-96 md:w-96 md:h-[500px] lg:w-[420px] lg:h-[540px]">
               <img 
-                src="assets\img\shrekkkkkk-removebg-preview.png" // Use a PNG with transparent background
+                src="assets\img\shrekkkkk-removebg-preview.png" // Use a PNG with transparent background
                 alt="Patrick Nobleza"
                 className="w-full h-full object-contain"
                 style={{ background: "none" }}
