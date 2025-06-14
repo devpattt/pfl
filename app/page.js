@@ -15,7 +15,7 @@ export default function SimplifiedPortfolio() {
       {/* Header Navigation */}
       <nav className="w-full z-50 bg-white border-b border-gray-100">
         <div className="w-full px-6 lg:px-12 py-6 flex justify-between items-center">
-          <div className="font-bold text-xl text-black">devpat</div>
+          <div className="font-bold text-xl text-black"></div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
@@ -57,12 +57,12 @@ export default function SimplifiedPortfolio() {
         <div className="w-full max-w-3xl mx-auto text-center mb-8">
           <p className="text-2xl mb-4 flex items-center justify-center gap-2">
             <span role="img" aria-label="wave">Hello,</span>
-            Im <span className="font-bold text-black">Patrick Nobleza</span>
+            Im <span className="font-bold text-black">Patrick F. Nobleza</span>
           </p>
         </div>
 
         {/* Main Title */}
-        <div id="home" className="relative w-full max-w-5xl mx-auto flex flex-col items-center">
+        <div id="home" className="relative w-full max-w-5xl mx-auto flex flex-col items-center mt-[-60px]">
           <h1 className="relative z-10 text-center">
             <span className="block text-5xl md:text-7xl lg:text-8xl font-black text-black leading-none">
               Webdeveloper
@@ -79,7 +79,7 @@ export default function SimplifiedPortfolio() {
           </h1>
 
           {/* Photo with transparent background (PNG recommended) */}
-          <div className="relative flex justify-center mt-[-40px] mb-8 z-0">
+          <div className="relative flex justify-center mt-[-90px] mb-8 z-0">
             <div className="relative w-72 h-96 md:w-96 md:h-[500px] lg:w-[420px] lg:h-[540px]">
               <img 
                 src="assets\img\me.jpg" 
@@ -121,17 +121,6 @@ export default function SimplifiedPortfolio() {
         scroll-behavior: smooth;
       }
       `}</style>
-
-
-
-
-
-
-
-
-
-
-
 
         <br></br>
       {/* Portfolio Section - Education, Achievements, Past Works */}
