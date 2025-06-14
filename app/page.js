@@ -74,7 +74,7 @@ export default function SimplifiedPortfolio() {
               </span>
             </span>
             <span className="block text-5xl md:text-7xl lg:text-8xl font-black leading-none text-transparent stroke-text">
-              & Tech Support Specialist
+              & IT Support Specialist
             </span>
           </h1>
 
